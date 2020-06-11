@@ -1,0 +1,27 @@
+.HeaderContainer {
+  background-color: #084387;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HeaderContainer button {
+  background-color: transparent;
+  border-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.HeaderContainer h1 {
+  color: #ffff;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.IconContainer {
+  margin-left: 6px;
+  height: 33px;
+  display: flex;
+  align-items: flex-end;
+}

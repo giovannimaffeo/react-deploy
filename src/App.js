@@ -1,14 +1,9 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>My react app</h1>
-      <h2>Author: Giovanni Maffeo</h2>
-    </div>
-  );
+import "./global.css";
+import Routes from "./routes";
+import Login from "./pages/Login";
+
+export default function App() {
+  return <Routes />;
 }
-
-export default App;
