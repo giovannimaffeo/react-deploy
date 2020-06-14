@@ -1,7 +1,7 @@
 import React from "react";
 
-import Header from "../../Components/Header";
-import AppInfo from "../../Components/AppInfo";
+import Header from "../../components/Header";
+import AppInfo from "../../components/AppInfo";
 
 export default function Home() {
   return (
